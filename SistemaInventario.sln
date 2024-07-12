@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaInventario", "SistemaInventario\SistemaInventario.csproj", "{AF31009E-9B81-41F8-91EC-E98762D1CD4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaInventario", "SistemaInventario\SistemaInventario.csproj", "{AF31009E-9B81-41F8-91EC-E98762D1CD4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaInventario.AccesoDatos", "SistemaInventario.AccesoDatos\SistemaInventario.AccesoDatos.csproj", "{D7599E11-65A3-4736-A7FF-B9E1F6EABA36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaInventario.Modelos", "SistemaInventario.Modelos\SistemaInventario.Modelos.csproj", "{27056E92-8BDD-4439-A4EB-F9B5ABE9D08E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaInventario.Utilidades", "SistemaInventario.Utilidades\SistemaInventario.Utilidades.csproj", "{23321A22-DB2C-4F42-97CD-BFF85146103C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{AF31009E-9B81-41F8-91EC-E98762D1CD4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF31009E-9B81-41F8-91EC-E98762D1CD4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF31009E-9B81-41F8-91EC-E98762D1CD4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7599E11-65A3-4736-A7FF-B9E1F6EABA36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7599E11-65A3-4736-A7FF-B9E1F6EABA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7599E11-65A3-4736-A7FF-B9E1F6EABA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7599E11-65A3-4736-A7FF-B9E1F6EABA36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27056E92-8BDD-4439-A4EB-F9B5ABE9D08E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27056E92-8BDD-4439-A4EB-F9B5ABE9D08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27056E92-8BDD-4439-A4EB-F9B5ABE9D08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27056E92-8BDD-4439-A4EB-F9B5ABE9D08E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23321A22-DB2C-4F42-97CD-BFF85146103C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23321A22-DB2C-4F42-97CD-BFF85146103C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23321A22-DB2C-4F42-97CD-BFF85146103C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23321A22-DB2C-4F42-97CD-BFF85146103C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
